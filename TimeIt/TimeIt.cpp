@@ -21,7 +21,7 @@ int main(int argc,char* argv[])
     auto t1 = std::chrono::high_resolution_clock::now();
     auto elapsed = t1 - t0;
     auto dur = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count();
-    std::cout << "Time: " << dur/1000000.0 << "\n";
+    std::cout << "Time: " << dur/1000000.0 << "secs\n";
 
 }
 
